@@ -5,14 +5,19 @@ class DepartmentManagment(EmployeeManagement):
     Department_id = 0
 
     def __init__(self):
+        
         super().__init__()
         self.department_list = []
 
     def Create_department(self, department_name: str) -> None:
         """Creates department in Company
-        id;
-        title;
-        employees = []"""
+        Arguments:
+            depratment name
+        
+        Return:
+            None
+        
+        """
         DepartmentManagment.Department_id += 1
         Department = {
             "id": DepartmentManagment.Department_id,
