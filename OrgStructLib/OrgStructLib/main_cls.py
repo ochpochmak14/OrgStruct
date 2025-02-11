@@ -12,6 +12,9 @@ class Company(Company_abilities):
 
         Return:
             None
+            
+        
+        Extra Data: creation time
         """
         super().__init__()
         self.company_title = company_title
