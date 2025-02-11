@@ -4,6 +4,7 @@ current_date = datetime.now().date()
 class Company:
     def __init__(self, company_title: str, founders: list):
         """Data about initialized Company
+        Args:
         company_title,
         founders,
         creation_time"""
@@ -11,13 +12,6 @@ class Company:
         self.founders = founders
         self.creation_time = current_date
     
-    def Roadmap(self) -> str:
-        """Returns a Company Roadmap"""
-        pass
-    
-    def Company_achievements(self) -> list:
-        """Describing company_achievements"""
-        pass
     
     
     
